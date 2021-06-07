@@ -1,0 +1,258 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+    transition: all .5s ease-in-out;
+}
+body{
+    background: rgb(35, 35, 39);
+}
+nav{
+    height: 10vh;
+    background: rgb(53, 54, 54);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 10px 35px #05b0ff;
+    animation: hueChange 50s infinite alternate-reverse;
+    
+}
+.logo{
+    display: flex;
+    color: chartreuse;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+nav h2 {
+    font-size: 40px;    
+    animation: hueChange 10s infinite .25s reverse;
+
+}
+nav i {
+    font-size:50px; 
+    animation: hueChange 10s infinite .5s reverse;
+
+}
+.fa-feather-alt{
+    font-size: 40px;
+    transform: rotateY(180deg);
+    animation: hueChange 10s infinite reverse;
+
+}
+.projects{
+    padding-top: 3vh;
+    text-align: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.projects h1 {
+    color: rgb(23, 221, 235);
+    /*color: rgb(255, 23, 178); */
+    font-size: 80px;
+    margin-top: 15vh;
+    margin-bottom: 2vh;
+    
+}
+.project-box{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.project-card{
+    background: rgb(58, 61, 65);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 60vh;
+    cursor: pointer;
+    position: relative;
+    border-radius: 10px;
+}
+.project-card img {
+    width: 100%;
+    height: 35vh;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+.project-card h2{
+    margin-bottom: 1vh ;
+    font-weight: 1000;
+    color: white;
+}
+.redirect-icons{
+    font-size: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.redirect-icons i{
+    transition: all .5s ease-in-out;
+
+}
+.fa-github{
+    color: rgb(42, 27, 255);
+}
+.fa-chrome{
+    color: rgb(27, 255, 65);
+}
+.fa-info-circle{
+    color: yellow;
+}
+.fa-chrome:hover, .fa-github:hover, .fa-info-circle:hover{
+    filter:brightness(.65);
+}
+
+.modal-content{
+    background: rgb(60, 56, 66);
+    cursor: default;
+}
+.modal-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-header{
+    display: flex;
+}
+.modal-header span{
+    color: white;
+}
+.modal-header h2 {
+    width: 100%;
+    margin-left: 3vw;
+}
+.carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: .5vw;
+    height: 50vh;
+    width: 33rem;
+}
+.carousel-item{
+    height: 45vh;
+    
+}
+.carousel-body-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-body-content h5 {
+    padding: 5%;
+    padding-bottom: 0vh;
+    font-size: clamp(.5rem, 1.5vw, 2rem); 
+    color: white;
+    margin-top: -7vh;
+
+}
+
+.modal-footer{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+}
+.carousel-labels-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.labels{
+    width: fit-content;
+    padding: 2vh;
+    font-size: 15px; 
+    background: rgb(61, 171, 179);
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+    transition: all .25s ease-in-out;
+}
+
+.labels:hover{
+    color: rgb(61, 171, 179);
+    background: white;
+}
+@keyframes hueChange {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .carousel-body-content{
+        flex-direction: column;
+    }
+    .labels{
+        font-size: 10px;
+    }
+    .carousel-body-content h5{
+        padding-top: 50px;
+    }
+    .carousel{
+        width: 25rem;
+    }
+  }
+@media only screen and (max-width: 750px) {
+
+    .modal-content{
+        margin-left: 10vw;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .project-card{
+        width: 80%;
+        background: chartreuse;
+        margin-left: 10vw;
+    }
+    .carousel{
+        width: 20rem;
+    }
+    .carousel-body-content h5 {
+        font-size: 15px; 
+    }
+    .labels{
+        padding: 1vh;
+        font-size: 10px; 
+    }
+    .btn-secondary{
+        display: none;    
+    }
+    .modal-content{
+        margin-left: 20vw;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .modal-header h2{
+        font-size: 20px;
+    }
+    .carousel{
+        width: 15rem;
+    }
+    
+    .labels{
+        font-size: 8px; 
+    }
+    .modal-content{
+        margin-left: 8vw;
+        margin-right: -5vw;
+    }
+ 
+}

@@ -1,0 +1,34 @@
+[
+    {
+        "pid": "1",
+        "pname": "Monthly Youth Program",
+        "pimages": ["images/tw1.png","images/tw2.png","images/tw1.png","images/tw1.png"],
+        "pdescription": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical lit.",
+        "ptags": ["Template Literals", "Vanilla JS","Bootstrap","Educational"],
+        "plinks":["https://hasibfox.github.io/Tajweed-Website", "https://github.com/hasibfox/Tajweed-Website"]
+    },
+    {
+        "pid": "2",
+        "pname": "Monthly Youth",
+        "pimages": ["images/tw1.png","images/tw2.png"],
+        "pdescription": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical lit.",
+        "ptags": ["Educational"],
+        "plinks":["https://hasibfox.github.io/Tajweed-Website", "https://github.com/hasibfox/Tajweed-Website"]
+    },
+    {
+        "pid": "3",
+        "pname": " Program",
+        "pimages": ["images/tw1.png","images/tw2.png"],
+        "pdescription": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical lit.",
+        "ptags": ["Template Literals", "Vanilla JS","Bootstrap","Educational"],
+        "plinks":["https://hasibfox.github.io/Tajweed-Website", "https://github.com/hasibfox/Tajweed-Website"]
+    },
+    {
+        "pid": "4",
+        "pname": "Monthly Youth Program",
+        "pimages": ["images/tw1.png","images/tw2.png"],
+        "pdescription": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical lit.",
+        "ptags": ["Template Literals", "Vanilla JS","Bootstrap","Educational"],
+        "plinks":["https://hasibfox.github.io/Tajweed-Website", "https://github.com/hasibfox/Tajweed-Website"]
+    }
+]
