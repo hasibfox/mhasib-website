@@ -9,6 +9,7 @@ body{
     background: rgb(35, 35, 39);
     height: fit-content;
     overflow-x: hidden;
+    
 }
 nav{
     height: 10vh;
@@ -125,6 +126,7 @@ nav i {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .modal-header{
     display: flex;
@@ -190,16 +192,17 @@ nav i {
 .icon-test{
     position: absolute;
     z-index: -1;
+    top: -30%;
+
 }
 
 @keyframes rotate {
     0%{
         transform: rotate(0deg);
-        top: -10%;
     }
     100%{
         transform: rotate(360deg);
-        top: 150% ;
+        top: 100% ;
         opacity: 0;
     }
 }
@@ -216,6 +219,9 @@ nav i {
 @media only screen and (max-width: 1000px) {
     .carousel-body-content{
         flex-direction: column;
+    }
+    .icon-test{
+        display: none;
     }
     .labels{
         font-size: 10px;
