@@ -10,7 +10,7 @@
    },
    {
       "emote": "fas fa-code",
-      "size": "20.5px",
+      "size": "40.5px",
       "speed": "5.5s" ,
       "delay": "0.2s",
       "color": "lightgray" ,
@@ -18,8 +18,17 @@
       "dist": "5.2%"
    },
    {
+      "emote": "fab fa-python",
+      "size": "66.0px",
+      "speed": "11.0s" ,
+      "delay": "2.4s",
+      "color": "lightgray" ,
+      "reverse": "normal" ,
+      "dist": "62.4%"
+   },
+   {
       "emote": "fas fa-terminal",
-      "size": "21.0px",
+      "size": "31.0px",
       "speed": "6.0s" ,
       "delay": "0.4s",
       "color": "lightgray" ,
@@ -37,25 +46,17 @@
    },
    {
       "emote": "fas fa-sitemap",
-      "size": "22.0px",
+      "size": "32.0px",
       "speed": "7.0s" ,
       "delay": "0.8s",
       "color": "lightgray" ,
       "reverse": "normal" ,
       "dist": "20.8%"
    },
-   {
-      "emote": "fas fa-user-secret",
-      "size": "22.5px",
-      "speed": "7.5s" ,
-      "delay": "1.0s",
-      "color": "lightgray" ,
-      "reverse": "alternate" ,
-      "dist": "26.0%"
-   },
+   
    {
       "emote": "fas fa-bug",
-      "size": "23.0px",
+      "size": "43.0px",
       "speed": "8.0s" ,
       "delay": "1.2s",
       "color": "lightgray" ,
@@ -71,18 +72,10 @@
       "reverse": "alternate" ,
       "dist": "36.4%"
    },
-   {
-      "emote": "fas fa-theater-masks",
-      "size": "34.0px",
-      "speed": "9.0s" ,
-      "delay": "1.6s",
-      "color": "lightgray" ,
-      "reverse": "normal" ,
-      "dist": "41.6%"
-   },
+   
    {
       "emote": "fab fa-node",
-      "size": "24.5px",
+      "size": "27.5px",
       "speed": "9.5s" ,
       "delay": "1.8s",
       "color": "lightgray" ,
@@ -91,7 +84,7 @@
    },
    {
       "emote": "fab fa-html5",
-      "size": "25.0px",
+      "size": "45.0px",
       "speed": "10.0s" ,
       "delay": "2.0s",
       "color": "lightgray" ,
@@ -100,7 +93,7 @@
    },
    {
       "emote": "fab fa-js-square",
-      "size": "25.5px",
+      "size": "55.5px",
       "speed": "10.5s" ,
       "delay": "2.2s",
       "color": "lightgray" ,
@@ -108,13 +101,13 @@
       "dist": "57.2%"
    },
    {
-      "emote": "fab fa-python",
-      "size": "26.0px",
-      "speed": "11.0s" ,
-      "delay": "2.4s",
+      "emote": "fas fa-user-secret",
+      "size": "82.5px",
+      "speed": "7.5s" ,
+      "delay": "1.0s",
       "color": "lightgray" ,
-      "reverse": "normal" ,
-      "dist": "62.4%"
+      "reverse": "alternate" ,
+      "dist": "26.0%"
    },
    {
       "emote": "fab fa-java",
@@ -126,33 +119,6 @@
       "dist": "67.6%"
    },
    {
-      "emote": "fab fa-react",
-      "size": "27.0px",
-      "speed": "12.0s" ,
-      "delay": "2.8s",
-      "color": "lightgray" ,
-      "reverse": "normal" ,
-      "dist": "72.8%"
-   },
-   {
-      "emote": "fab fa-r-project",
-      "size": "27.5px",
-      "speed": "12.5s" ,
-      "delay": "3.0s",
-      "color": "lightgray" ,
-      "reverse": "alternate" ,
-      "dist": "78.0%"
-   },
-   {
-      "emote": "fas fa-file-csv",
-      "size": "28.0px",
-      "speed": "13.0s" ,
-      "delay": "3.2s",
-      "color": "lightgray" ,
-      "reverse": "normal" ,
-      "dist": "83.2%"
-   },
-   {
       "emote": "far fa-file-excel",
       "size": "28.5px",
       "speed": "13.5s" ,
@@ -162,8 +128,36 @@
       "dist": "88.4%"
    },
    {
+      "emote": "fab fa-react",
+      "size": "57.0px",
+      "speed": "12.0s" ,
+      "delay": "2.8s",
+      "color": "lightgray" ,
+      "reverse": "normal" ,
+      "dist": "72.8%"
+   },
+   {
+      "emote": "fas fa-theater-masks",
+      "size": "44.0px",
+      "speed": "9.0s" ,
+      "delay": "1.6s",
+      "color": "lightgray" ,
+      "reverse": "normal" ,
+      "dist": "41.6%"
+   },
+   {
+      "emote": "fab fa-r-project",
+      "size": "43.5px",
+      "speed": "12.5s" ,
+      "delay": "3.0s",
+      "color": "lightgray" ,
+      "reverse": "alternate" ,
+      "dist": "78.0%"
+   },
+   
+   {
       "emote": "fab fa-angular",
-      "size": "29.0px",
+      "size": "35.0px",
       "speed": "14.0s" ,
       "delay": "3.6s",
       "color": "lightgray" ,
@@ -178,5 +172,14 @@
       "color": "lightgray" ,
       "reverse": "alternate" ,
       "dist": "98.8%"
+   },
+   {
+      "emote": "fas fa-file-csv",
+      "size": "28.0px",
+      "speed": "13.0s" ,
+      "delay": "3.2s",
+      "color": "lightgray" ,
+      "reverse": "normal" ,
+      "dist": "83.2%"
    }
 ]
