@@ -38,8 +38,8 @@ const Page = () => {
                     })}
                 </div>
                 <div className="events-buttons">
-                    <button onClick={showMoreItems}>Load More</button>
-                    <button onClick={isTrue ? StayAtItems : showLessItems}>Load Less</button>
+                    <button className="b1" onClick={showMoreItems}>Load More</button>
+                    <button className={isTrue ? "b2off" : "b2"} onClick={isTrue ? StayAtItems : showLessItems} >Load Less</button>
                 </div>
             </div>
         </div>
