@@ -1,7 +1,5 @@
 import React from 'react';
 import Carousel from './Carousel';
-import { Link } from 'react-router-dom';
-
 
 const ProjectCard = ({name, desc, tags, links, images, index}) => {
 

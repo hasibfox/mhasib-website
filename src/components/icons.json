@@ -1,0 +1,182 @@
+[
+   {
+      "emote": "fas fa-code-branch",
+      "size": "30px",
+      "speed": "8s" ,
+      "delay": "0s",
+      "color": "lightgray" ,
+      "reverse": "normal" ,
+      "dist": "0%"
+   },
+   {
+      "emote": "fas fa-code",
+      "size": "20.5px",
+      "speed": "5.5s" ,
+      "delay": "0.2s",
+      "color": "lightgray" ,
+      "reverse": "alternate" ,
+      "dist": "5.2%"
+   },
+   {
+      "emote": "fas fa-terminal",
+      "size": "21.0px",
+      "speed": "6.0s" ,
+      "delay": "0.4s",
+      "color": "lightgray" ,
+      "reverse": "normal" ,
+      "dist": "10.4%"
+   },
+   {
+      "emote": "fab fa-css3",
+      "size": "70.5px",
+      "speed": "12.5s" ,
+      "delay": "0.6s",
+      "color": "lightgray" ,
+      "reverse": "alternate" ,
+      "dist": "15.6%"
+   },
+   {
+      "emote": "fas fa-sitemap",
+      "size": "22.0px",
+      "speed": "7.0s" ,
+      "delay": "0.8s",
+      "color": "lightgray" ,
+      "reverse": "normal" ,
+      "dist": "20.8%"
+   },
+   {
+      "emote": "fas fa-user-secret",
+      "size": "22.5px",
+      "speed": "7.5s" ,
+      "delay": "1.0s",
+      "color": "lightgray" ,
+      "reverse": "alternate" ,
+      "dist": "26.0%"
+   },
+   {
+      "emote": "fas fa-bug",
+      "size": "23.0px",
+      "speed": "8.0s" ,
+      "delay": "1.2s",
+      "color": "lightgray" ,
+      "reverse": "normal" ,
+      "dist": "31.2%"
+   },
+   {
+      "emote": "fas fa-shield-alt",
+      "size": "23.5px",
+      "speed": "8.5s" ,
+      "delay": "1.4s",
+      "color": "lightgray" ,
+      "reverse": "alternate" ,
+      "dist": "36.4%"
+   },
+   {
+      "emote": "fas fa-theater-masks",
+      "size": "34.0px",
+      "speed": "9.0s" ,
+      "delay": "1.6s",
+      "color": "lightgray" ,
+      "reverse": "normal" ,
+      "dist": "41.6%"
+   },
+   {
+      "emote": "fab fa-node",
+      "size": "24.5px",
+      "speed": "9.5s" ,
+      "delay": "1.8s",
+      "color": "lightgray" ,
+      "reverse": "alternate" ,
+      "dist": "46.8%"
+   },
+   {
+      "emote": "fab fa-html5",
+      "size": "25.0px",
+      "speed": "10.0s" ,
+      "delay": "2.0s",
+      "color": "lightgray" ,
+      "reverse": "normal" ,
+      "dist": "52.0%"
+   },
+   {
+      "emote": "fab fa-js-square",
+      "size": "25.5px",
+      "speed": "10.5s" ,
+      "delay": "2.2s",
+      "color": "lightgray" ,
+      "reverse": "alternate" ,
+      "dist": "57.2%"
+   },
+   {
+      "emote": "fab fa-python",
+      "size": "26.0px",
+      "speed": "11.0s" ,
+      "delay": "2.4s",
+      "color": "lightgray" ,
+      "reverse": "normal" ,
+      "dist": "62.4%"
+   },
+   {
+      "emote": "fab fa-java",
+      "size": "26.5px",
+      "speed": "11.5s" ,
+      "delay": "2.6s",
+      "color": "lightgray" ,
+      "reverse": "alternate" ,
+      "dist": "67.6%"
+   },
+   {
+      "emote": "fab fa-react",
+      "size": "27.0px",
+      "speed": "12.0s" ,
+      "delay": "2.8s",
+      "color": "lightgray" ,
+      "reverse": "normal" ,
+      "dist": "72.8%"
+   },
+   {
+      "emote": "fab fa-r-project",
+      "size": "27.5px",
+      "speed": "12.5s" ,
+      "delay": "3.0s",
+      "color": "lightgray" ,
+      "reverse": "alternate" ,
+      "dist": "78.0%"
+   },
+   {
+      "emote": "fas fa-file-csv",
+      "size": "28.0px",
+      "speed": "13.0s" ,
+      "delay": "3.2s",
+      "color": "lightgray" ,
+      "reverse": "normal" ,
+      "dist": "83.2%"
+   },
+   {
+      "emote": "far fa-file-excel",
+      "size": "28.5px",
+      "speed": "13.5s" ,
+      "delay": "3.4s",
+      "color": "lightgray" ,
+      "reverse": "alternate" ,
+      "dist": "88.4%"
+   },
+   {
+      "emote": "fab fa-angular",
+      "size": "29.0px",
+      "speed": "14.0s" ,
+      "delay": "3.6s",
+      "color": "lightgray" ,
+      "reverse": "normal" ,
+      "dist": "93.6%"
+   },
+   {
+      "emote": "fab fa-bootstrap",
+      "size": "50.5px",
+      "speed": "14.5s" ,
+      "delay": "3.8s",
+      "color": "lightgray" ,
+      "reverse": "alternate" ,
+      "dist": "98.8%"
+   }
+]

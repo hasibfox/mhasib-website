@@ -5,7 +5,10 @@ const Navbar = () => {
         <div>
             <nav>
                 <div class="logo">
-                    <i class="fas fa-feather-alt"></i>
+                    {/*<i class="fas fa-feather-alt"></i>
+                    <i class="fab fa-gripfire" style={{
+                        transform:'rotateY(180deg)'
+                    }}></i>*/}
                     <h2>hasibfox</h2>
                     <i class="fab fa-gripfire"></i>
                 </div>

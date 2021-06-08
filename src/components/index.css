@@ -7,6 +7,8 @@
 }
 body{
     background: rgb(35, 35, 39);
+    height: fit-content;
+    overflow-x: hidden;
 }
 nav{
     height: 10vh;
@@ -15,7 +17,7 @@ nav{
     align-items: center;
     justify-content: center;
     box-shadow: 0px 10px 35px #05b0ff;
-    animation: hueChange 50s infinite alternate-reverse;
+    animation: hueChange 30s infinite alternate-reverse;
     
 }
 .logo{
@@ -45,19 +47,18 @@ nav i {
 .projects{
     padding-top: 3vh;
     text-align: center;
-    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 .projects h1 {
-    color: rgb(23, 221, 235);
+    color: rgb(133, 113, 248);
     /*color: rgb(255, 23, 178); */
     font-size: 80px;
-    margin-top: 15vh;
+    margin-top: 5vh;
     margin-bottom: 2vh;
-    
+
 }
 .project-box{
     width: 90%;
@@ -68,7 +69,7 @@ nav i {
     flex-wrap: wrap;
 }
 .project-card{
-    background: rgb(58, 61, 65);
+    background: rgba(58, 61, 65, 0.514);
     margin: 20px;
     display: flex;
     flex-direction: column;
@@ -76,7 +77,6 @@ nav i {
     align-items: center;
     width: 400px;
     height: 60vh;
-    cursor: pointer;
     position: relative;
     border-radius: 10px;
 }
@@ -87,7 +87,7 @@ nav i {
     margin-bottom: 2vh;
 }
 .project-card h2{
-    margin-bottom: 1vh ;
+    margin-top:2vh ;
     font-weight: 1000;
     color: white;
 }
@@ -102,8 +102,8 @@ nav i {
 }
 .redirect-icons i{
     transition: all .5s ease-in-out;
-
-}
+    cursor: pointer;
+}   
 .fa-github{
     color: rgb(42, 27, 255);
 }
@@ -187,6 +187,22 @@ nav i {
     color: rgb(61, 171, 179);
     background: white;
 }
+.icon-test{
+    position: absolute;
+    z-index: -1;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+        top: -10%;
+    }
+    100%{
+        transform: rotate(360deg);
+        top: 150% ;
+        opacity: 0;
+    }
+}
 @keyframes hueChange {
     0%{
         filter: hue-rotate(0deg);
@@ -195,6 +211,7 @@ nav i {
         filter: hue-rotate(360deg);
     }
 }
+
 
 @media only screen and (max-width: 1000px) {
     .carousel-body-content{
