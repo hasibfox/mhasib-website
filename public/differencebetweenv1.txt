@@ -1,0 +1,7 @@
+v1 - new-version has a modalvalidation js dont know what it does
+v1 - has submit form functions for modals but doesnt look like it works in HOME.JS
+v1 - removes policy statement in MAINTEST.JS <-- ammended
+
+
+
+ModalValidation.js and mainvalidation.js same

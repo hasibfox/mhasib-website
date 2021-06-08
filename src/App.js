@@ -7,11 +7,14 @@ import icons from './components/icons.json'
 function App() {
   return (
     <div>
-      {(icons.sort(() => Math.random() - 0.5)).map((icon)=>{
-        return (
-          <Falling emote={icon.emote} size={icon.size} speed={icon.speed} delay={icon.delay} color={icon.color} reverse={icon.reverse} dist={icon.dist}/>
-        )
-      })}
+      <div className="icons-container">
+        {(icons.sort(() => Math.random() - 0.5)).map((icon)=>{
+          return (
+            <Falling emote={icon.emote} size={icon.size} speed={icon.speed} delay={icon.delay} color={icon.color} reverse={icon.reverse} dist={icon.dist}/>
+          )
+        })}
+      </div>
+      
       <Navbar/>
       <Page/>
     </div>

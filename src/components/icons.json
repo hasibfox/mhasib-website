@@ -19,9 +19,9 @@
    },
    {
       "emote": "fab fa-python",
-      "size": "66.0px",
-      "speed": "11.0s" ,
-      "delay": "2.4s",
+      "size": "100.0px",
+      "speed": "16.0s" ,
+      "delay": "1.4s",
       "color": "lightgray" ,
       "reverse": "normal" ,
       "dist": "62.4%"
@@ -38,7 +38,7 @@
    {
       "emote": "fab fa-css3",
       "size": "70.5px",
-      "speed": "12.5s" ,
+      "speed": "20.5s" ,
       "delay": "0.6s",
       "color": "lightgray" ,
       "reverse": "alternate" ,
@@ -57,8 +57,8 @@
    {
       "emote": "fas fa-bug",
       "size": "43.0px",
-      "speed": "8.0s" ,
-      "delay": "1.2s",
+      "speed": "4.0s" ,
+      "delay": "0.2s",
       "color": "lightgray" ,
       "reverse": "normal" ,
       "dist": "31.2%"
@@ -67,7 +67,7 @@
       "emote": "fas fa-shield-alt",
       "size": "23.5px",
       "speed": "8.5s" ,
-      "delay": "1.4s",
+      "delay": "0.1s",
       "color": "lightgray" ,
       "reverse": "alternate" ,
       "dist": "36.4%"
@@ -76,7 +76,7 @@
    {
       "emote": "fab fa-node",
       "size": "27.5px",
-      "speed": "9.5s" ,
+      "speed": "4.5s" ,
       "delay": "1.8s",
       "color": "lightgray" ,
       "reverse": "alternate" ,
@@ -85,8 +85,8 @@
    {
       "emote": "fab fa-html5",
       "size": "45.0px",
-      "speed": "10.0s" ,
-      "delay": "2.0s",
+      "speed": "15.0s" ,
+      "delay": "0s",
       "color": "lightgray" ,
       "reverse": "normal" ,
       "dist": "52.0%"
@@ -94,8 +94,8 @@
    {
       "emote": "fab fa-js-square",
       "size": "55.5px",
-      "speed": "10.5s" ,
-      "delay": "2.2s",
+      "speed": "6.5s" ,
+      "delay": ".2s",
       "color": "lightgray" ,
       "reverse": "alternate" ,
       "dist": "57.2%"
@@ -103,7 +103,7 @@
    {
       "emote": "fas fa-user-secret",
       "size": "82.5px",
-      "speed": "7.5s" ,
+      "speed": "10.5s" ,
       "delay": "1.0s",
       "color": "lightgray" ,
       "reverse": "alternate" ,
@@ -113,7 +113,7 @@
       "emote": "fab fa-java",
       "size": "26.5px",
       "speed": "11.5s" ,
-      "delay": "2.6s",
+      "delay": "1.3s",
       "color": "lightgray" ,
       "reverse": "alternate" ,
       "dist": "67.6%"
@@ -121,25 +121,25 @@
    {
       "emote": "far fa-file-excel",
       "size": "28.5px",
-      "speed": "13.5s" ,
-      "delay": "3.4s",
+      "speed": "7.5s" ,
+      "delay": "0s",
       "color": "lightgray" ,
       "reverse": "alternate" ,
-      "dist": "88.4%"
+      "dist": "72.4%"
    },
    {
       "emote": "fab fa-react",
-      "size": "57.0px",
-      "speed": "12.0s" ,
-      "delay": "2.8s",
+      "size": "90.0px",
+      "speed": "26.0s" ,
+      "delay": "1.2s",
       "color": "lightgray" ,
-      "reverse": "normal" ,
-      "dist": "72.8%"
+      "reverse": "alternate" ,
+      "dist": "86.8%"
    },
    {
       "emote": "fas fa-theater-masks",
       "size": "44.0px",
-      "speed": "9.0s" ,
+      "speed": "5.0s" ,
       "delay": "1.6s",
       "color": "lightgray" ,
       "reverse": "normal" ,
@@ -149,7 +149,7 @@
       "emote": "fab fa-r-project",
       "size": "43.5px",
       "speed": "12.5s" ,
-      "delay": "3.0s",
+      "delay": "5.0s",
       "color": "lightgray" ,
       "reverse": "alternate" ,
       "dist": "78.0%"
@@ -159,7 +159,7 @@
       "emote": "fab fa-angular",
       "size": "35.0px",
       "speed": "14.0s" ,
-      "delay": "3.6s",
+      "delay": "2.6s",
       "color": "lightgray" ,
       "reverse": "normal" ,
       "dist": "93.6%"
@@ -167,8 +167,8 @@
    {
       "emote": "fab fa-bootstrap",
       "size": "50.5px",
-      "speed": "14.5s" ,
-      "delay": "3.8s",
+      "speed": "4.5s" ,
+      "delay": "0s",
       "color": "lightgray" ,
       "reverse": "alternate" ,
       "dist": "98.8%"
@@ -176,8 +176,8 @@
    {
       "emote": "fas fa-file-csv",
       "size": "28.0px",
-      "speed": "13.0s" ,
-      "delay": "3.2s",
+      "speed": "8.0s" ,
+      "delay": "0.2s",
       "color": "lightgray" ,
       "reverse": "normal" ,
       "dist": "83.2%"
