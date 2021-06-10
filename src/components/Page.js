@@ -33,7 +33,7 @@ const Page = () => {
                 <div className="project-box">
                     {projects.slice(0,visible).map((project, index) => {
                         return(
-                            <ProjectCard id = {project.pid} name = {project.pname} desc = {project.pdescription} tags = {project.ptags} links = {project.plinks} images = {project.pimages} index = {index}/>
+                            <ProjectCard name = {project.pname} desc = {project.pdescription} tags = {project.ptags} links = {project.plinks} images = {project.pimages} index = {index}/>
                         )
                     })}
                 </div>

@@ -1,6 +1,5 @@
 [
     {
-        "pid": "1",
         "pname": "Tajweed Website",
         "pimages": ["images/tajweedweb/tw1.png","images/tajweedweb/tw2.png","images/tajweedweb/tw1.png","images/tajweedweb/tw1.png"],
         "pdescription": "This website is designed so that students of Quranic Arabic could review their pronunciation rules (tajweed rules) while having access to instant time examples. Review slides are also built in to cumulatively review lesson rules. The next step in this project is to actually implement sound examples for each letter/word and to add further rules." ,
@@ -8,7 +7,6 @@
         "plinks":["https://hasibfox.github.io/Tajweed-Website", "https://github.com/hasibfox/Tajweed-Website"]
     },
     {
-        "pid": "1",
         "pname": "Tajweed Website",
         "pimages": ["images/tajweedweb/tw1.png","images/tajweedweb/tw2.png","images/tajweedweb/tw1.png","images/tajweedweb/tw1.png"],
         "pdescription": "This website is designed so that students of Quranic Arabic could review their pronunciation rules (tajweed rules) while having access to instant time examples. Review slides are also built in to cumulatively review lesson rules. The next step in this project is to actually implement sound examples for each letter/word and to add further rules." ,
@@ -16,23 +14,6 @@
         "plinks":["https://hasibfox.github.io/Tajweed-Website", "https://github.com/hasibfox/Tajweed-Website"]
     },
     {
-        "pid": "1",
-        "pname": "Tajweed Website",
-        "pimages": ["images/tajweedweb/tw1.png","images/tajweedweb/tw2.png","images/tajweedweb/tw1.png","images/tajweedweb/tw1.png"],
-        "pdescription": "This website is designed so that students of Quranic Arabic could review their pronunciation rules (tajweed rules) while having access to instant time examples. Review slides are also built in to cumulatively review lesson rules. The next step in this project is to actually implement sound examples for each letter/word and to add further rules." ,
-        "ptags": ["Template Literals", "Vanilla JS","Bootstrap","Educational"],
-        "plinks":["https://hasibfox.github.io/Tajweed-Website", "https://github.com/hasibfox/Tajweed-Website"]
-    },
-    {
-        "pid": "1",
-        "pname": "Tajweed Website",
-        "pimages": ["images/tajweedweb/tw1.png","images/tajweedweb/tw2.png","images/tajweedweb/tw1.png","images/tajweedweb/tw1.png"],
-        "pdescription": "This website is designed so that students of Quranic Arabic could review their pronunciation rules (tajweed rules) while having access to instant time examples. Review slides are also built in to cumulatively review lesson rules. The next step in this project is to actually implement sound examples for each letter/word and to add further rules." ,
-        "ptags": ["Template Literals", "Vanilla JS","Bootstrap","Educational"],
-        "plinks":["https://hasibfox.github.io/Tajweed-Website", "https://github.com/hasibfox/Tajweed-Website"]
-    },
-    {
-        "pid": "1",
         "pname": "Tajweed Website",
         "pimages": ["images/tajweedweb/tw1.png","images/tajweedweb/tw2.png","images/tajweedweb/tw1.png","images/tajweedweb/tw1.png"],
         "pdescription": "This website is designed so that students of Quranic Arabic could review their pronunciation rules (tajweed rules) while having access to instant time examples. Review slides are also built in to cumulatively review lesson rules. The next step in this project is to actually implement sound examples for each letter/word and to add further rules." ,
