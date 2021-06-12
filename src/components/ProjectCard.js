@@ -5,7 +5,7 @@ const ProjectCard = ({name, desc, tags, links, images, index}) => {
 
     return (
         <div>
-            <div className="project-card">
+            <div className="project-card" id={"#" + index.toString()}>
                 <h2> {name} </h2>
                 <img src={images[0]}/> 
                 <div className="redirect-icons">

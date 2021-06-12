@@ -5,7 +5,7 @@
         "pimages": ["images/masweb/p1.png","images/masweb/p2.png","images/masweb/p3.png", "images/masweb/p4.png","images/masweb/p5.png"],
         "pdescription": "Masjid.io is a soon to be released, free, online platform where institutions can have easy access to modern website features at their fingertips. They'll be able to customize a page for themselves where they can post pictures, events, playlists, and even donation services. My role was to construct this website's frontend, or everything that is displayed." ,
         "ptags": ["React JavaScript", "Accessibility"],
-        "plinks":["#", "https://mystifying-wiles-581249.netlify.app/"]
+        "plinks":["#1", "https://mystifying-wiles-581249.netlify.app/"]
     },
     {
         "pname": "Tajweed Website",
@@ -26,7 +26,7 @@
         "pimages": ["images/bpg/p4.png","images/bpg/p2.png","images/bpg/p3.png","images/bpg/p1.png","images/bpg/p1.png"],
         "pdescription": "In this script, you can play an interactive game that gives you an idea of how polluted Bangladesh is (#1 Most Polluted Country) compared to other places in the world by guessing AQI Indexes. Descriptions and figures will be included for you to make the best guess you can." ,
         "ptags": ["MATLAB", "Educational","Data Visualization"],
-        "plinks":["#", "https://github.com/hasibfox/Bangladesh-Pollution-Visualization-Game-"]
+        "plinks":["#4", "https://github.com/hasibfox/Bangladesh-Pollution-Visualization-Game-"]
     },
     {
         "pname": "Game of Life",
