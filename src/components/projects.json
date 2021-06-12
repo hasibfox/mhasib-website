@@ -1,23 +1,38 @@
 [
+    
+    {
+        "pname": "Masjid.io",
+        "pimages": ["images/masweb/p1.png","images/masweb/p2.png","images/masweb/p3.png", "images/masweb/p4.png","images/masweb/p5.png"],
+        "pdescription": "Masjid.io is a soon to be released, free, online platform where institutions can have easy access to modern website features at their fingertips. They'll be able to customize a page for themselves where they can post pictures, events, playlists, and even donation services. My role was to construct this website's frontend, or everything that is displayed." ,
+        "ptags": ["React JavaScript", "Accessibility"],
+        "plinks":["#", "https://mystifying-wiles-581249.netlify.app/"]
+    },
     {
         "pname": "Tajweed Website",
-        "pimages": ["images/tajweedweb/tw1.png","images/tajweedweb/tw2.png","images/tajweedweb/tw1.png","images/tajweedweb/tw1.png"],
+        "pimages": ["images/tajweedweb/tw1.png","images/tajweedweb/tw2.png"],
         "pdescription": "This website is designed so that students of Quranic Arabic could review their pronunciation rules (tajweed rules) while having access to instant time examples. Review slides are also built in to cumulatively review lesson rules. The next step in this project is to actually implement sound examples for each letter/word and to add further rules." ,
         "ptags": ["Template Literals", "Vanilla JS","Bootstrap","Educational"],
         "plinks":["https://hasibfox.github.io/Tajweed-Website", "https://github.com/hasibfox/Tajweed-Website"]
     },
     {
-        "pname": "Tajweed Website",
-        "pimages": ["images/tajweedweb/tw1.png","images/tajweedweb/tw2.png","images/tajweedweb/tw1.png","images/tajweedweb/tw1.png"],
-        "pdescription": "This website is designed so that students of Quranic Arabic could review their pronunciation rules (tajweed rules) while having access to instant time examples. Review slides are also built in to cumulatively review lesson rules. The next step in this project is to actually implement sound examples for each letter/word and to add further rules." ,
-        "ptags": ["Template Literals", "Vanilla JS","Bootstrap","Educational"],
-        "plinks":["https://hasibfox.github.io/Tajweed-Website", "https://github.com/hasibfox/Tajweed-Website"]
+        "pname": "File Signature Detector",
+        "pimages": ["images/fsf/p1.png","images/fsf/p2.png","images/fsf/p3.png"],
+        "pdescription": "In digital forensics, cybersecurity analysts often look at file signatures to ensure that nothing has been meddled with. No matter what extension a person changes to a file, the file signature will always reveal the original type. This simple application converts any raw packet data into sections of certain identifiable files (PDF, GIF, DOC, etc). " ,
+        "ptags": ["Cybersecurity", "Digital Forensics","Bootstrap 5","JavaScript"],
+        "plinks":["https://hasibfox.github.io/DetectSignatures/", "https://github.com/hasibfox/DetectSignatures"]
     },
     {
-        "pname": "Tajweed Website",
-        "pimages": ["images/tajweedweb/tw1.png","images/tajweedweb/tw2.png","images/tajweedweb/tw1.png","images/tajweedweb/tw1.png"],
-        "pdescription": "This website is designed so that students of Quranic Arabic could review their pronunciation rules (tajweed rules) while having access to instant time examples. Review slides are also built in to cumulatively review lesson rules. The next step in this project is to actually implement sound examples for each letter/word and to add further rules." ,
-        "ptags": ["Template Literals", "Vanilla JS","Bootstrap","Educational"],
-        "plinks":["https://hasibfox.github.io/Tajweed-Website", "https://github.com/hasibfox/Tajweed-Website"]
+        "pname": "Bangladesh Pollution Game",
+        "pimages": ["images/bpg/p4.png","images/bpg/p2.png","images/bpg/p3.png","images/bpg/p1.png","images/bpg/p1.png"],
+        "pdescription": "In this script, you can play an interactive game that gives you an idea of how polluted Bangladesh is (#1 Most Polluted Country) compared to other places in the world by guessing AQI Indexes. Descriptions and figures will be included for you to make the best guess you can." ,
+        "ptags": ["MATLAB", "Educational","Data Visualization"],
+        "plinks":["#", "https://github.com/hasibfox/Bangladesh-Pollution-Visualization-Game-"]
+    },
+    {
+        "pname": "Game of Life",
+        "pimages": ["images/gameoflife/p1.png","images/gameoflife/p2.png"],
+        "pdescription": "A creative page where I wanted to implement a website that would autoset rainy music and create a gloomy, mood. Currently, I have down a few odd stories from my life and plan to add more as life goes on! Update: Autoplay for the rain sound no longer works :( " ,
+        "ptags": ["Creative","JavaScript"],
+        "plinks":["https://hasibfox.github.io/The-Game-of-Life/", "https://github.com/hasibfox/The-Game-of-Life"]
     }
 ]
