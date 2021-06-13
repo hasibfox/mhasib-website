@@ -1,0 +1,185 @@
+[
+   {
+      "emote": "fas fa-code-branch",
+      "size": "30px",
+      "speed": "8s" ,
+      "delay": "0s",
+      "color": "blue" ,
+      "reverse": "normal" ,
+      "dist": "0%"
+   },
+   {
+      "emote": "fas fa-code",
+      "size": "40.5px",
+      "speed": "5.5s" ,
+      "delay": "0.2s",
+      "color": "white" ,
+      "reverse": "alternate" ,
+      "dist": "5.2%"
+   },
+   {
+      "emote": "fab fa-python",
+      "size": "100.0px",
+      "speed": "16.0s" ,
+      "delay": "1.4s",
+      "color": "lightgreen" ,
+      "reverse": "normal" ,
+      "dist": "62.4%"
+   },
+   {
+      "emote": "fas fa-terminal",
+      "size": "31.0px",
+      "speed": "6.0s" ,
+      "delay": "0.4s",
+      "color": "white" ,
+      "reverse": "normal" ,
+      "dist": "10.4%"
+   },
+   {
+      "emote": "fab fa-css3",
+      "size": "70.5px",
+      "speed": "20.5s" ,
+      "delay": "0.6s",
+      "color": "blue" ,
+      "reverse": "alternate" ,
+      "dist": "15.6%"
+   },
+   {
+      "emote": "fas fa-sitemap",
+      "size": "32.0px",
+      "speed": "7.0s" ,
+      "delay": "0.8s",
+      "color": "yellow" ,
+      "reverse": "normal" ,
+      "dist": "20.8%"
+   },
+   
+   {
+      "emote": "fas fa-bug",
+      "size": "43.0px",
+      "speed": "4.0s" ,
+      "delay": "0.2s",
+      "color": "brown" ,
+      "reverse": "normal" ,
+      "dist": "31.2%"
+   },
+   {
+      "emote": "fas fa-shield-alt",
+      "size": "23.5px",
+      "speed": "8.5s" ,
+      "delay": "0.1s",
+      "color": "white" ,
+      "reverse": "alternate" ,
+      "dist": "36.4%"
+   },
+   
+   {
+      "emote": "fab fa-node",
+      "size": "27.5px",
+      "speed": "4.5s" ,
+      "delay": "1.8s",
+      "color": "green" ,
+      "reverse": "alternate" ,
+      "dist": "46.8%"
+   },
+   {
+      "emote": "fab fa-html5",
+      "size": "45.0px",
+      "speed": "15.0s" ,
+      "delay": "0s",
+      "color": "lightskyblue" ,
+      "reverse": "normal" ,
+      "dist": "52.0%"
+   },
+   {
+      "emote": "fab fa-js-square",
+      "size": "55.5px",
+      "speed": "6.5s" ,
+      "delay": ".2s",
+      "color": "yellow" ,
+      "reverse": "alternate" ,
+      "dist": "57.2%"
+   },
+   {
+      "emote": "fas fa-user-secret",
+      "size": "82.5px",
+      "speed": "10.5s" ,
+      "delay": "1.0s",
+      "color": "lightgray" ,
+      "reverse": "alternate" ,
+      "dist": "26.0%"
+   },
+   {
+      "emote": "fab fa-java",
+      "size": "26.5px",
+      "speed": "11.5s" ,
+      "delay": "1.3s",
+      "color": "red" ,
+      "reverse": "alternate" ,
+      "dist": "67.6%"
+   },
+   {
+      "emote": "far fa-file-excel",
+      "size": "28.5px",
+      "speed": "7.5s" ,
+      "delay": "0s",
+      "color": "green" ,
+      "reverse": "alternate" ,
+      "dist": "72.4%"
+   },
+   {
+      "emote": "fab fa-react",
+      "size": "90.0px",
+      "speed": "26.0s" ,
+      "delay": "1.2s",
+      "color": "skyblue" ,
+      "reverse": "alternate" ,
+      "dist": "86.8%"
+   },
+   {
+      "emote": "fas fa-theater-masks",
+      "size": "44.0px",
+      "speed": "5.0s" ,
+      "delay": "1.6s",
+      "color": "lightgray" ,
+      "reverse": "normal" ,
+      "dist": "41.6%"
+   },
+   {
+      "emote": "fab fa-r-project",
+      "size": "43.5px",
+      "speed": "12.5s" ,
+      "delay": "5.0s",
+      "color": "orange" ,
+      "reverse": "alternate" ,
+      "dist": "78.0%"
+   },
+   
+   {
+      "emote": "fab fa-angular",
+      "size": "35.0px",
+      "speed": "14.0s" ,
+      "delay": "2.6s",
+      "color": "pink" ,
+      "reverse": "normal" ,
+      "dist": "93.6%"
+   },
+   {
+      "emote": "fab fa-bootstrap",
+      "size": "50.5px",
+      "speed": "4.5s" ,
+      "delay": "0s",
+      "color": "purple" ,
+      "reverse": "alternate" ,
+      "dist": "98.8%"
+   },
+   {
+      "emote": "fas fa-file-csv",
+      "size": "28.0px",
+      "speed": "8.0s" ,
+      "delay": "0.2s",
+      "color": "lightgreen" ,
+      "reverse": "normal" ,
+      "dist": "83.2%"
+   }
+]
