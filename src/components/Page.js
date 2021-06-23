@@ -2,6 +2,8 @@ import React from 'react'
 import ProjectCard from './ProjectCard'
 import projects from './projects.json'
 import { useState } from 'react'
+import icons_color from './icons_color.json';
+import Falling from './Falling';
 
 var count = 1
 var isTrue = true;
@@ -28,6 +30,13 @@ const Page = () => {
     };
     return (
         <div>
+            <div className="icons-container">
+                {icons_color.map((icon)=>{
+                return (
+                    <Falling emote={icon.emote} size={icon.size} speed={icon.speed} delay={icon.delay} color={icon.color} reverse={icon.reverse} dist={icon.dist}/>
+                )
+                })}
+            </div>
             <div className="projects">
                 <h1>Projects</h1>
                 <div className="project-box">
