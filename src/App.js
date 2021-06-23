@@ -1,8 +1,8 @@
 import Navbar from './components/Navbar';
-import Page from './components/Page';
+import Page from './pages/Page';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import PhishingObby from './components/GoingFishing';
+import PhishingObby from './pages/GoingFishing';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <Switch>
           <Route path='/' exact component = { Page } />
 
-          <Route path="/PhishingObby" exact component = {PhishingObby} />
+          <Route path="/SpoofingObby" exact component = {PhishingObby} />
         </Switch>
       </Router>
       

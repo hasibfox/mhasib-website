@@ -1,9 +1,8 @@
-import React from 'react'
-import ProjectCard from './ProjectCard'
-import projects from './projects.json'
-import { useState } from 'react'
-import icons_color from './icons_color.json';
-import Falling from './Falling';
+import React,{ useState } from 'react';
+import ProjectCard from '../components/ProjectCard';
+import projects from '../projects.json';
+import icons_color from '../components/icons_color.json';
+import Falling from '../components/Falling';
 
 var count = 1
 var isTrue = true;
@@ -42,7 +41,7 @@ const Page = () => {
                 <div className="project-box">
                     {projects.slice(0,visible).map((project, index) => {
                         return(
-                            <ProjectCard name = {project.pname} desc = {project.pdescription} tags = {project.ptags} links = {project.plinks} images = {project.pimages} index = {index}/>
+                            <ProjectCard name = {project.pname} desc = {project.pdescription} tags = {project.ptags} links = {project.plinks} images = {project.pimages} options={project.options} index = {index}/>
                         )
                     })}
                 </div>

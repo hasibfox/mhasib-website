@@ -1,8 +1,7 @@
 import React from 'react';
 import Carousel from './Carousel';
 
-const ProjectCard = ({name, desc, tags, links, images, index}) => {
-
+const ProjectCard = ({name, desc, tags, links, images, options, index}) => {
     return (
         <div>
             <div className="project-card" id={"#" + index.toString()}>
@@ -11,14 +10,14 @@ const ProjectCard = ({name, desc, tags, links, images, index}) => {
                 <div className="redirect-icons">
                     <i className="fas fa-info-circle" data-toggle="modal" data-target={"#" + index}></i>
                     <a href={links[0]} style= {{
-                        textDecoration: "none"
-                    }}>
-                        <i class="fab fa-chrome" ></i>
+                        textDecoration: "none",
+                    }} target={options[0] === "no-drop" ? "#" + index.toString() : "_blank"} >
+                        <i class="fab fa-chrome" style={{cursor: options[0]}}></i>
                     </a>
                     <a href={links[1]} style= {{
-                        textDecoration: "none"
-                    }}>
-                        <i class="fab fa-github" ></i>
+                        textDecoration: "none",
+                    }} target={options[1] === "no-drop" ? "#" + index.toString() : "_blank"} >
+                        <i class="fab fa-github" style={{cursor: options[1]}}></i>
                     </a>
                 </div>        
                     

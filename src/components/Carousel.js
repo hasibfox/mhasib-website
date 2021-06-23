@@ -1,9 +1,7 @@
 import React from 'react'
 
 const Carousel = ({images, index}) => {
-    console.log(images[0])
-    console.log(images.indexOf(images[0]))
-    console.log(images.indexOf(images[0]))
+
     return (
         <div>
             <div id={"Modal" + index.toString()} class="carousel slide" data-ride="carousel" >

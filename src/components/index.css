@@ -128,6 +128,7 @@ nav i {
     margin-top:2vh ;
     font-weight: 1000;
     color: white;
+    font-size: 30px;
 }
 .redirect-icons{
     font-size: 40px;
@@ -285,6 +286,7 @@ nav i {
     justify-content: space-evenly;
     align-items: center;
     margin: 20px;
+    flex-wrap: wrap;
 }
 .figure-pics img{
     height: 40vh;
@@ -297,6 +299,9 @@ nav i {
 }
 .article-container h4{
     margin-top: 50px;
+}
+.searchpic{
+    height: 5vh !important; 
 }
 
 @keyframes rotate {
