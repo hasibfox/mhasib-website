@@ -114,6 +114,12 @@ const PhishingObby = () => {
                         Through the small simulation, I discovered that webscraping and a lightweight database can easily allow for general information gathering (comparable to reconnaissance). While these may be just some seemingly irrelavent images and numbers (friend count, follow count, etc), being able to then reproduce a replica profile page given these items has the potential to completely convince a user they are on a legitimate page. Again, social engineering shows immense dangerous potential. For this reason alone, it is even more important that we can distinguish between what is real and not.
                     </p> <br/>
                 </section>
+
+                <section>
+                    <h2>Survey Results</h2>
+                    <p>In addition to reproducing a user's complete profile, I am currently collecting survey responses from everyday browser users, Roblox players, and cybersecurity professionals. I hope to use these results to not only get an idea of how effective this simulation would be in real life, but also to learn from the people themselves on how to prevent such socially engineered attacks. At the end of the day, the most difficult network layer to break is the physical layer of our brain.</p> 
+                    <br/>
+                </section>
             </div>
         </div>
         
