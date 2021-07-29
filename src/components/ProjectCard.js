@@ -27,7 +27,7 @@ const ProjectCard = ({name, desc, tags, links, images, options, index}) => {
                     }}>
                         <div class="modal-content">
                             <div className="modal-header">
-                                <h2 className="modal-title">Tajweed Website</h2>
+                                <h2 className="modal-title">{name}</h2>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
