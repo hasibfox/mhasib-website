@@ -11,12 +11,12 @@ const ProjectCard = ({name, desc, tags, links, images, options, index}) => {
                     <i className="fas fa-info-circle" data-toggle="modal" data-target={"#" + index}></i>
                     <a href={links[0]} style= {{
                         textDecoration: "none",
-                    }} target={options[0] === "no-drop" ? "#" + index.toString() : "_blank"} >
+                    }} target={options[0] === "no-drop" ? "_self"  : "_blank"} >
                         <i class="fab fa-chrome" style={{cursor: options[0]}}></i>
                     </a>
                     <a href={links[1]} style= {{
                         textDecoration: "none",
-                    }} target={options[1] === "no-drop" ? "#" + index.toString() : "_blank"} >
+                    }} target={options[1] === "no-drop" ? "_self"  : "_blank"} >
                         <i class="fab fa-github" style={{cursor: options[1]}}></i>
                     </a>
                 </div>        
