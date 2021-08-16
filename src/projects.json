@@ -5,7 +5,7 @@
         "pimages": ["images/masweb/p1.png","images/masweb/p2.png","images/masweb/p3.png", "images/masweb/p4.png","images/masweb/p5.png"],
         "pdescription": "Masjid.io is a soon to be released, free, online platform where institutions can have easy access to modern website features at their fingertips. They'll be able to customize a page for themselves where they can post pictures, events, playlists, and even donation services. My role was to construct this website's frontend, or everything that is displayed." ,
         "ptags": ["React JavaScript", "Accessibility"],
-        "plinks":["#1", "https://mystifying-wiles-581249.netlify.app/"],
+        "plinks":[  "https://mystifying-wiles-581249.netlify.app/", "#1"],
         "options":["pointer", "pointer"]
 
     },
