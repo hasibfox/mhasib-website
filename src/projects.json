@@ -18,14 +18,30 @@
         "options":["pointer", "no-drop"]
     },
     {
+        "pname": "Scholars of Color Network",
+        "pimages": ["images/scn/index page.png", "images/scn/scholars page.png", "images/scn/profile.png", "images/scn/privacy.png" ],
+        "pdescription": "The Scholars of Color Network celebrates talented scholars of color and facilitates professional networking across academia.  We showcase top scholars from diverse fields and allow visitors to search our members." ,
+        "ptags": ["Flask", "Ajax","JavaScript","Bootstrap"],
+        "plinks":["#3", "#3"],
+        "options":["no-drop", "no-drop"]
+    },
+    {
         "pname": "File Signature Detector",
         "pimages": ["images/fsf/p1.png","images/fsf/p2.png","images/fsf/p3.png"],
         "pdescription": "In digital forensics, cybersecurity analysts often look at file signatures to ensure that nothing has been meddled with. No matter what extension a person changes to a file, the file signature will always reveal the original type. This simple application converts any raw packet data into sections of certain identifiable files (PDF, GIF, DOC, etc). " ,
         "ptags": ["Cybersecurity", "Digital Forensics","Bootstrap 5","JavaScript"],
         "plinks":["https://hasibfox.github.io/DetectSignatures/", "https://github.com/hasibfox/DetectSignatures"],
         "options":["pointer", "pointer"]
-
     },
+    {
+        "pname": "Physics Education Research",
+        "pimages": ["images/phys/p1.png","images/phys/p2.png" ],
+        "pdescription": "A brief overview of translating conceptual physics exam statistical data into valuable metrics that can better measure cognitive approaches and progress throughout physics courses." ,
+        "ptags": ["Data Analysis", "R","Python","MS Excel"],
+        "plinks":["https://summer21.research.wesleyan.edu/2021/07/22/students-learning-in-first-year-physics-classes/", "#5"],
+        "options":["pointer", "no-drop"]
+    },
+    
     {
         "pname": "Tajweed Website",
         "pimages": ["images/tajweedweb/tw1.png","images/tajweedweb/tw2.png"],
@@ -40,7 +56,7 @@
         "pimages": ["images/bpg/p4.png","images/bpg/p2.png","images/bpg/p3.png","images/bpg/p1.png","images/bpg/p1.png"],
         "pdescription": "In this script, you can play an interactive game that gives you an idea of how polluted Bangladesh is (#1 Most Polluted Country) compared to other places in the world by guessing AQI Indexes. Descriptions and figures will be included for you to make the best guess you can." ,
         "ptags": ["MATLAB", "Educational","Data Visualization"],
-        "plinks":["#4", "https://github.com/hasibfox/Bangladesh-Pollution-Visualization-Game-"],
+        "plinks":["#7", "https://github.com/hasibfox/Bangladesh-Pollution-Visualization-Game-"],
         "options":["no-drop", "pointer"]
 
     },
