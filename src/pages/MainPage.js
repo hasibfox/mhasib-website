@@ -7,6 +7,9 @@ import { Link } from 'react-scroll';
 import ProjectCard from '../components/ProjectCard';
 import projects from '../projects.json';
 import Falling from '../components/Falling';
+import "animate.css/animate.min.css";
+import ScrollAnimation from'react-animate-on-scroll'
+
 
 
 
@@ -47,14 +50,13 @@ const MainPage = () => {
                             color = { icon["color"] }
                             emote = { icon["emote"] }
                             />
-
-                            
-
                         )
                     })}
                 </div>
             </div>
-<div className='links'>
+
+            <div className='links'>
+
                 <div className='page-links'>
                     <Link activeClass={ "active"} style={{ textDecoration: 'none' }}to="home" spy={true} smooth={true} duration={100}>
                         <p>home.js</p>        
@@ -89,21 +91,28 @@ const MainPage = () => {
             </div>
                  <div className='main-container'>
                     <div 
-                        className='hero-page' 
+                        className='animate__animated animate__bounce hero-page' 
                         id='home'
                         data-aos="fade-down"
                         data-aos-delay="200"
                         data-aos-duration="3000"
+                        
                         >
-                            <h1 >
+                            <h1 class="animate__animated animate__pulse animate__infinite">
                                 hey it's mhasib
                             </h1>
-                            <h2 >
-                                welcome to my messy world
+                        <div className='sub-text'>
+                            <h2>
+                                    welcome to my 
                             </h2>
+                            <h2 className='animate__animated animate__shakeX  animate__infinite'>messy</h2>
+                            <h2>world</h2>
+                        </div>
+
                     </div>
                 
                     <div className='me-container' id="about-me">
+
                             <h2 className='section-header' data-aos="zoom-in">
                                 About Me
                             </h2>
