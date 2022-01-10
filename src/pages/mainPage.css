@@ -1,7 +1,7 @@
 .page-div{
     width: 100%;
     color: #aad1ec;
-    background-color: #1e2761;
+    background-color: transparent;
 
 }
 .background-div{ 
@@ -12,21 +12,20 @@
     position: fixed;
     font-family: 'Space Grotesk', sans-serif;
     color: white;
+    z-index: -1;
 }
 .active {
     color: white;
 }
 
-.icons-container i {
+.direct-icons-container i {
     position: absolute;
 }
-.icons-container{
+.direct-icons-container{
     margin-top:-20vh ;
 }
-.main-container{
-    position: relative;
-    z-index: 2;
-}
+
+
 
 /* Hero Section */
 .hero-page {
@@ -183,10 +182,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 
 .project-box{
-    width: 90%;
+    width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -244,37 +244,44 @@
 }
 
 .modal-content{
-    background: rgb(60, 56, 66);
+    background-color: #1e2761;
     cursor: default;
 }
 .modal-body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 } 
 .modal-header{
     display: flex;
 }
 .modal-header span{
     color: white;
+    font-size: 35px;
+    padding: 2px;
+    cursor: pointer;
+    transition: .5s;
+}
+.modal-header span:hover{
+    color: red;
 }
 .modal-header h2 {
     width: 100%;
     margin-left: 3vw;
+    font-weight: bolder;
 }
+
 .carousel{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: .5vw;
     height: 60vh;
     width: 40rem;
-
 }
 .carousel-item{
-    height: 60vh;
+    height: 100%; 
 }
+
 .carousel-body-content{
     display: flex;
     justify-content: center;
@@ -286,39 +293,27 @@
     font-size: clamp(.5rem, 1.5vw, 2rem); 
     color: white;
     margin-top: -7vh;
-
 }
 
 .modal-footer{
     display: flex;
-    justify-content: space-between;
-    height: 10vh;
+    justify-content: space-between;    
+    padding: 0px;
 }
-.carousel-labels-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.labels{
-    width: fit-content;
-    padding: 2vh;
-    font-size: 15px; 
-    background: rgb(61, 171, 179);
-    color: white;
-    border-radius: 5px;
-    margin: 5px;
-    transition: all .25s ease-in-out;
-}
+
+/* color: #4df7e8; */
+
+
 
 .labels:hover{
     color: rgb(61, 171, 179);
     background: white;
 }
-.events-buttons button{
+.events-buttons button, .labels{
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
-    background-color: #1e2761;
+    background-color: #e4fffd;;
     color: salmon;
     font-weight: bolder;
     outline: 3px #aad1ec solid ;
@@ -335,6 +330,15 @@
 .b2off:hover{
     cursor: not-allowed;
     background: rgb(180, 180, 180);
+    color: red;
+}
+.modal-footer button {
+    margin: 10px;
+    background: red;
+    transition: .5s;
+}
+.modal-footer button:hover {
+    background: white;
     color: red;
 }
 

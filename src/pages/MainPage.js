@@ -8,7 +8,7 @@ import ProjectCard from '../components/ProjectCard';
 import projects from '../projects.json';
 import Falling from '../components/Falling';
 import "animate.css/animate.min.css";
-import ScrollAnimation from'react-animate-on-scroll'
+import Carousel from '../components/Carousel';
 
 
 
@@ -38,7 +38,7 @@ const MainPage = () => {
 
         <div className='page-div'>
             <div className='background-div'>
-                <div className='icons-container'>
+                <div className='direct-icons-container'>
                     {icons_color.map((icon, key) => {
                         return(
                             <Falling
@@ -89,7 +89,7 @@ const MainPage = () => {
                     </a>
                 </div>  
             </div>
-                 <div className='main-container'>
+                <div className='main-container'>
                     <div 
                         className='animate__animated animate__bounce hero-page' 
                         id='home'
@@ -98,7 +98,7 @@ const MainPage = () => {
                         data-aos-duration="3000"
                         
                         >
-                            <h1 class="animate__animated animate__pulse animate__infinite">
+                            <h1 className="animate__animated animate__pulse animate__infinite">
                                 hey it's mhasib
                             </h1>
                         <div className='sub-text'>
@@ -134,27 +134,27 @@ const MainPage = () => {
                                 </h3>
                                 <div className='tech-stack' data-aos="zoom-out-down">
                                     <div className="tech">
-                                        <i class="fab fa-python"></i>
+                                        <i className="fab fa-python"></i>
                                         <p>Python</p>
                                     </div>
                                     <div className="tech">
-                                        <i class="fab fa-js-square"></i>
+                                        <i className="fab fa-js-square"></i>
                                         <p>JavaScript</p>
                                     </div>
                                     <div className="tech">
-                                        <i class="fab fa-d-and-d"></i>
+                                        <i className="fab fa-d-and-d"></i>
                                         <p>Kali Linux</p>
                                     </div>
                                     <div className="tech">
-                                        <i class="fas fa-file-code"></i>
+                                        <i className="fas fa-file-code"></i>
                                         <p>WireShark</p>
                                     </div>
                                     <div className="tech">
-                                        <i class="fas fa-spider"></i>
+                                        <i className="fas fa-spider"></i>
                                         <p>Burp Suite</p>
                                     </div>
                                     <div className="tech">
-                                        <i class="fab fa-r-project"></i>
+                                        <i className="fab fa-r-project"></i>
                                         <p>R</p>
                                     </div>
                                 </div>
@@ -172,11 +172,47 @@ const MainPage = () => {
                         </h2>
                         <div className="projects" >
                             <div className="project-box">
+                                
                                 {projects.slice(0,visible).map((project, index) => {
                                     return(
-                                        <ProjectCard
+                                        <div>
+
+                <div className="modal fade" id={`exampleModal${index}`} tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div className="modal-dialog modal-dialog-centered" role="document" style={{
+                        maxWidth: "80%"
+                    }}>
+                        <div className="modal-content">
+                            <div className="modal-header">
+                                <h2 className="animate__animated animate__fadeInDown modal-title">{project["pname"]}</h2>
+                                    <span className="close" data-bs-dismiss="modal" aria-label="Close" aria-hidden="true">&times;</span>
+                            </div>
+                            <div className="modal-body">
+                                <div className = "animate__animated animate__zoomIn carousel-body-content">
+                                    <Carousel images = {project["pimages"]} index= {index}/>
+                                    <h5 className='animate__animated animate__animated'>{project["pdescription"]}</h5>
+                                </div>                         
+                            </div>
+                            <div className="modal-footer">
+                                <div className="carousel-labels-container">
+                                    {project["ptags"].map((tag, key) => {
+                                        return(
+                                            <div key={key} className={`animate__animated animate__fadeInLeft animate__delay-${key-.5}s labels`}>{tag}</div>
+                                        )
+                                    })}
+
+                                </div>
+                                <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            <ProjectCard
                                         name = {project.pname} desc = {project.pdescription} tags = {project.ptags} links = {project.plinks} images = {project.pimages} options={project.options} index = {index}/>
-                                )
+                                
+                                        </div>
+                                        )
                             })}
                         </div>
                         <div className="events-buttons">

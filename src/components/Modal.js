@@ -9,9 +9,8 @@ const Modal = ({id, desc, images}) => {
                     <div class="modal-content">
                         <div class="modal-header">
                             <h2 class="modal-title" id="exampleModalLongTitle"></h2>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                            </button>
+                            <span aria-hidden="true" class="close" data-dismiss="modal" aria-label="Close">&times;</span>
+                            <h1> X </h1>
                         </div>
                         <div class="modal-body">
                             {/*<Carousel id ={id} images = {images}/> */}
