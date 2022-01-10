@@ -6,6 +6,7 @@ import './mainPage.css';
 import { Link } from 'react-scroll';
 import ProjectCard from '../components/ProjectCard';
 import projects from '../projects.json';
+import Falling from '../components/Falling';
 
 
 
@@ -37,24 +38,34 @@ const MainPage = () => {
                 <div className='icons-container'>
                     {icons_color.map((icon, key) => {
                         return(
-                            <i 
-                            key={key} 
-                            class={icon["emote"]}
-                            style={{
-                                animation:"rotate " + icon["speed"] + " infinite " ,
-                                left: icon["dist"],
-                                animationDelay:  icon["delay"],
-                                animationDirection:  icon["reverse"],
-                                fontSize:  icon["size"],
-                                color: icon["color"],
-                            }}
-                            ></i>
+                            <Falling
+                            speed = { icon["speed"] }
+                            delay =  {icon["delay"] }
+                            reverse = { icon["reverse"] }
+                            dist =  {icon["dist"] }
+                            size =  {icon["size"] }
+                            color = { icon["color"] }
+                            emote = { icon["emote"] }
+                            />
+
+                            // <i 
+                            // key={key} 
+                            // class={icon["emote"]}
+                            // style={{
+                            //     animation:"rotate " + icon["speed"] + " infinite " ,
+                            //     left: icon["dist"],
+                            //     animationDelay:  icon["delay"],
+                            //     animationDirection:  icon["reverse"],
+                            //     fontSize:  icon["size"],
+                            //     color: icon["color"],
+                            // }}
+                            // ></i>
 
                         )
                     })}
                 </div>
             </div>
-            <div className='links'>
+{/*<div className='links'>
                 <div className='page-links'>
                     <Link activeClass={ "active"} style={{ textDecoration: 'none' }}to="home" spy={true} smooth={true} duration={100}>
                         <p>home.js</p>        
@@ -87,7 +98,7 @@ const MainPage = () => {
                     </a>
                 </div>  
             </div>
-                {/* <div className='main-container'>
+                 <div className='main-container'>
                     <div 
                         className='hero-page' 
                         id='home'

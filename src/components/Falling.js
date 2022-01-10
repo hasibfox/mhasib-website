@@ -3,7 +3,7 @@ import './index.css'
 const Falling = ({emote,size,speed,delay,color,reverse,dist}) => {
     return (
         <div>
-            <div className="icon-test" style={{
+            <div className="" style={{
                 animation:"rotate " + speed + " infinite " ,
                 animationDelay: delay,
                 animationDirection: reverse,
@@ -12,7 +12,7 @@ const Falling = ({emote,size,speed,delay,color,reverse,dist}) => {
                 color:color,
 
             }}>
-                <i class={emote}></i>
+                <i className={emote}></i>
             </div>
         </div>
     )
