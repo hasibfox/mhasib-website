@@ -136,6 +136,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: rgb(114, 250, 159);
+
 }
 .me-grid img {
     outline: 3px #aad1ec solid ;
@@ -157,6 +159,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: rgb(114, 250, 159);
+
 }
 
 .tech p {
@@ -355,7 +359,6 @@
     opacity: .3;
 }
 .ii{
-    background: turquoise !important;
     z-index: 2;
     position: relative;
 }
