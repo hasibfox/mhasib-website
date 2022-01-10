@@ -18,7 +18,7 @@
         "options":["pointer", "no-drop"]
     },
     {
-        "pname": "Scholars of Color Network",
+        "pname": "S.O.C Network",
         "pimages": ["images/scn/index page.png", "images/scn/scholars page.png", "images/scn/profile.png", "images/scn/privacy.png" ],
         "pdescription": "The Scholars of Color Network celebrates talented scholars of color and facilitates professional networking across academia.  We showcase top scholars from diverse fields and allow visitors to search our members." ,
         "ptags": ["Flask", "Ajax","JavaScript","Bootstrap"],
@@ -34,7 +34,7 @@
         "options":["pointer", "pointer"]
     },
     {
-        "pname": "Physics Education Research",
+        "pname": "PhysEd Research",
         "pimages": ["images/phys/p1.png","images/phys/p2.png" ],
         "pdescription": "A brief overview of translating conceptual physics exam statistical data into valuable metrics that can better measure cognitive approaches and progress throughout physics courses." ,
         "ptags": ["Data Analysis", "R","Python","MS Excel"],
@@ -52,7 +52,7 @@
 
     },
     {
-        "pname": "Bangladesh Pollution Game",
+        "pname": "BD Pollution Game",
         "pimages": ["images/bpg/p4.png","images/bpg/p2.png","images/bpg/p3.png","images/bpg/p1.png","images/bpg/p1.png"],
         "pdescription": "In this script, you can play an interactive game that gives you an idea of how polluted Bangladesh is (#1 Most Polluted Country) compared to other places in the world by guessing AQI Indexes. Descriptions and figures will be included for you to make the best guess you can." ,
         "ptags": ["MATLAB", "Educational","Data Visualization"],

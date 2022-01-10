@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <div>
             <nav>
-                <div class="logo">
+                <div className="logo">
                     {/*<i class="fas fa-feather-alt"></i>
                     <i class="fab fa-gripfire" style={{
                         transform:'rotateY(180deg)'
