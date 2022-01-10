@@ -358,6 +358,22 @@
 
     }
 }
+
+.ii i{
+    animation: goDown 10s infinite alternate-reverse;
+}
+@keyframes goDown {
+    0%{
+        margin-top: 120vh;
+
+    }
+
+    100%{
+        margin-top: 0px;
+
+    }
+}
+
 @keyframes Fade{
     0%{
         opacity: 0;
