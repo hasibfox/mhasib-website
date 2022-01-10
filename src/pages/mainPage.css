@@ -21,7 +21,7 @@
     position: absolute;
 }
 .icons-container{
-    margin-top:-10vh ;
+    margin-top:-20vh ;
 }
 .main-container{
     position: relative;
@@ -362,7 +362,7 @@
 
 .ii i{
     animation: goDown 10s infinite alternate-reverse;
-    
+    opacity: .3;
 }
 .ii{
     background: turquoise !important;
@@ -380,7 +380,7 @@
     }
 
     100%{
-        margin-top: 100vh;
+        margin-top: 130vh;
         transform: rotate(360deg);
         filter: hue-rotate(360deg);
     }

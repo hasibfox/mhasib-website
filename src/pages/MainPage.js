@@ -48,24 +48,13 @@ const MainPage = () => {
                             emote = { icon["emote"] }
                             />
 
-                            // <i 
-                            // key={key} 
-                            // class={icon["emote"]}
-                            // style={{
-                            //     animation:"rotate " + icon["speed"] + " infinite " ,
-                            //     left: icon["dist"],
-                            //     animationDelay:  icon["delay"],
-                            //     animationDirection:  icon["reverse"],
-                            //     fontSize:  icon["size"],
-                            //     color: icon["color"],
-                            // }}
-                            // ></i>
+                            
 
                         )
                     })}
                 </div>
             </div>
-{/*<div className='links'>
+<div className='links'>
                 <div className='page-links'>
                     <Link activeClass={ "active"} style={{ textDecoration: 'none' }}to="home" spy={true} smooth={true} duration={100}>
                         <p>home.js</p>        
@@ -191,7 +180,7 @@ const MainPage = () => {
             <div className='page-footer'>
                 <p>Made by Mohammad Hasib</p>
             </div>
-            </div> */}
+            </div>
 
         </div> 
         
