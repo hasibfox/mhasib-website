@@ -365,12 +365,16 @@
 @keyframes goDown {
     0%{
         margin-top: 120vh;
-
+        transform: rotate(0deg);
+        filter: hue-rotate(0deg);
     }
 
+    
     100%{
         margin-top: 0px;
-
+        transform: rotate(360deg);
+        opacity: 0%;
+        filter: hue-rotate(360deg);
     }
 }
 
