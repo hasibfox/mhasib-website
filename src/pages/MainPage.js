@@ -87,7 +87,7 @@ const MainPage = () => {
                     </a>
                 </div>  
             </div>
-                <div className='main-container'>
+                {/* <div className='main-container'>
                     <div 
                         className='hero-page' 
                         id='home'
@@ -180,7 +180,7 @@ const MainPage = () => {
             <div className='page-footer'>
                 <p>Made by Mohammad Hasib</p>
             </div>
-            </div>
+            </div> */}
 
         </div> 
         
