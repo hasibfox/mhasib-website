@@ -3,16 +3,15 @@ import './index.css'
 const Falling = ({emote,size,speed,delay,color,reverse,dist}) => {
     return (
         <div>
-            <div className="" style={{
-                animation:"rotate " + speed + " infinite " ,
-                animationDelay: delay,
-                animationDirection: reverse,
-                left: dist,
+            <div  style={{
+
                 fontSize: size,
                 color:color,
 
             }}>
-                <i className={emote}></i>
+                <i className={emote} style={{
+                    left: dist,
+                }}></i>
             </div>
         </div>
     )
