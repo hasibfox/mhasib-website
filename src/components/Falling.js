@@ -6,9 +6,12 @@ const Falling = ({emote,size,speed,delay,color,reverse,dist}) => {
             <div className="ii" style={{
                 fontSize: size,
                 color:color,
+                
+
             }}>
                 <i className={emote} style={{
                     left: dist,
+                    animation: `goDown ${speed} infinite ${reverse} ${delay}`
                 }}></i>
                 </div>
         </div>
