@@ -230,6 +230,7 @@
     font-size: 26px;
     margin: 30px;
     color: rgb(114, 250, 159);
+    text-decoration: rgb(114, 250, 159) 2px underline ;
 
 }
 .redirect-icons{
@@ -286,6 +287,8 @@
     width: 100%;
     margin-left: 3vw;
     font-weight: bolder;
+    text-decoration: rgb(114, 250, 159) 2px underline ;
+
 }
 
 .carousel{
