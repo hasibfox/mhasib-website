@@ -235,7 +235,7 @@ const MainPage = () => {
                     </div>
                     </div>
                 
-                    <div className='page-footer'>
+                    <div className='animate__animated animate__slideInUp page-footer'>
                         <p>Made by Mohammad Hasib</p>
                     </div>
                 </div>
