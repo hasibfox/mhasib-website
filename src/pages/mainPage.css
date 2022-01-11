@@ -1,3 +1,10 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+    transition: all .5s ease-in-out;
+}
 .page-div{
     width: 100%;
     color: #aad1ec;
@@ -52,14 +59,25 @@
 .links{
     padding: 15px;
     color: hsl(205, 63%, 80%);
-    bottom: 2%;
-    left: 2%;
+    bottom:35%;
+    left: -1%;
     z-index: 100;
     position: fixed;
     
 }
 .page-links{
     margin-bottom: 50px;
+}
+.social-links {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero-social-links i {
+    margin: 10px;
+    color: #aad1ec;
+    font-size: 25px;
 }
 .page-links p, .social-links i {
     cursor: pointer;
@@ -71,18 +89,18 @@
     font-weight: bold;
     color: white;
 }
-.social-links i:hover{
+.social-links i:hover,.hero-social-links i:hover {
     font-weight: bold;
     color: white;
-    margin: 10px;
+    font-size: 35px;
 }
-.social-links{
+.social-links, .hero-social-links{
     display: flex;
 }
 .social-links i{
     font-size: 25px;
     color: #aad1ec;
-
+    
 }
 
 .sub-text{
@@ -96,6 +114,7 @@
 .me-container{
     position: relative;
     padding: 20px;
+    width: 100%;
 }
 
 .section-header {
@@ -112,12 +131,8 @@
     border-bottom: 1px solid;
     margin: auto;
 }
-.section-header:before {
-    margin-right: 30px
-}
-.section-header:after {
-    margin-left: 30px
-}
+
+
 
 .me-grid{
     display: grid;
@@ -182,7 +197,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+    width: 100%;
 }
 
 .project-box{
@@ -246,6 +261,8 @@
 .modal-content{
     background-color: #1e2761;
     cursor: default;
+    outline: 3px #aad1ec solid ;
+    margin: 30px;
 }
 .modal-body{
     display: flex;
@@ -272,14 +289,19 @@
 }
 
 .carousel{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60vh;
+    height: 100%;
     width: 40rem;
+    position: relative;
+    background: cadetblueq;
 }
 .carousel-item{
-    height: 100%; 
+    height: 100%;
+    background: cadetblue !important; 
+}
+
+.carousel-control-prev, .carousel-control-next{
+    background: white;
+    height: 100%;
 }
 
 .carousel-body-content{
@@ -288,11 +310,22 @@
     align-items: center;
 }
 .carousel-body-content h5 {
-    padding: 5%;
-    padding-bottom: 0vh;
-    font-size: clamp(.5rem, 1.5vw, 2rem); 
+    font-size: clamp(1rem, 2.5vw, 1.5rem); 
     color: white;
-    margin-top: -7vh;
+    margin-top: -10vh;
+}
+.carousel-labels-container{
+    display: flex;
+}
+.carousel-control-prev, .carousel-control-next{
+    color: black;
+    width: 5%;
+}
+
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon /*, .carousel-indicators */ {
+    filter: invert(100%);
 }
 
 .modal-footer{
@@ -400,10 +433,31 @@
     }
 }
 
+
+@media only screen and (max-width: 1000px) {
+    .carousel-body-content{
+        flex-direction: column;
+    }
+    .icon-test{
+        display: none;
+    }
+    .labels{
+        font-size: 7px;
+    }
+    .carousel{
+        background: turquoise;
+        height: 100% !important;
+        width: 60vw;
+    }
+    .carousel-body-content h5 {
+        margin-top: 0vh;
+    }
+  }
+
+
 @media only screen and (max-width: 768px) {
     .hero-page h1{
         font-size: 70px;
-
     }
     .hero-page h2{
         font-size: 35px;
@@ -411,15 +465,10 @@
     .social-links{
         flex-direction: column;
     }
-    .page-links{
+    .links{
         display: none;
     }
-    .links{
-        left: -1%
-    }
-    .sub-text{
-        flex-direction: flex;
-    }
+
     .me-grid{
         grid-template-columns: 1fr;
     }
@@ -433,28 +482,67 @@
         display: none;
     }
     .me-text{
+        padding: 1vw;
+        margin-top: 5vh;
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
         flex-direction: column;
-        padding: 50px;
     }
 
     .tech-stack{
-        width: 70%;
+        width: 100%;
     }
     
-  }
+}
 
-  
+
 @media only screen and (max-width: 550px) {
-    .project-card{
-        width: 80%;
-        margin-left: 10vw;
-    }
+
     .project-card img{
         height: 200px;
+    }
+    .modal-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .modal-footer button{
+        display: none;
+    }
+    .modal-header h2{
+        font-size: 30px;
+    }
+    .modal-backdrop{
+        width: 100%;
+        height: 100%;
+    }
+    .background-div{
+        height: 150vh;
+    }
+    .modal-content{
+        padding: 20px;
+        width: 100vw;
+        margin-left: 7%;
+    }
+    .project-card{
+        width: 100%;
+        margin-left: 0vw;
+    }
+    .links{
+        left: -2%
     }
 
 }
 
+@media only screen and (max-width: 320px) {
+
+
+    .modal-content{
+        padding: 20px;
+        width: 90vw;
+        margin-left: 3%;
+    }
+
+
+}

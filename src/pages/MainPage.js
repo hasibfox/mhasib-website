@@ -90,6 +90,7 @@ const MainPage = () => {
                 </div>  
             </div>
                 <div className='main-container'>
+                    
                     <div 
                         className='animate__animated animate__bounce hero-page' 
                         id='home'
@@ -101,13 +102,25 @@ const MainPage = () => {
                             <h1 className="animate__animated animate__pulse animate__infinite">
                                 hey it's mhasib
                             </h1>
-                        <div className='sub-text'>
-                            <h2>
-                                    welcome to my 
+                            <h2>welcome to my <h2 className='animate__animated animate__shakeX  animate__infinite'>technosphere</h2> 
                             </h2>
-                            <h2 className='animate__animated animate__shakeX  animate__infinite'>messy</h2>
-                            <h2>world</h2>
-                        </div>
+                            <div className='animate__animated animate__bounceInUp hero-social-links'>
+                                <a target="_blank"  href = "mailto: mhasib@wesleyan.edu">                        
+                                    <i className="fas fa-at"></i>
+                                </a>
+
+                                <a target="_blank"  href="https://www.linkedin.com/in/mohammad-hasib/">
+                                    <i className="fab fa-linkedin"></i>
+                                </a>
+
+                                <a target="_blank"  href="https://hasibfox.wescreates.wesleyan.edu/">
+                                    <i className="fas fa-comment-dots"></i>
+                                </a>
+
+                                <a target="_blank"  href="https://github.com/hasibfox/">
+                                    <i className="fab fa-github-square"></i>
+                                </a>
+                            </div>  
 
                     </div>
                 
@@ -116,7 +129,7 @@ const MainPage = () => {
                             <h2 className='section-header' data-aos="zoom-in">
                                 About Me
                             </h2>
-                        <div className='me-grid'>
+                            <div className='me-grid'>
 
                             <div className='me-text' data-aos="zoom-in-right">
                                 <img className='mobile-show' src={"https://media-exp1.licdn.com/dms/image/C4E03AQG8NPZOow8JEQ/profile-displayphoto-shrink_800_800/0/1596490348218?e=1647475200&v=beta&t=8-I3X59__pTs2ySHWB7BGjwuya1MRYOY-9_evmSi8xU"} />
@@ -220,14 +233,13 @@ const MainPage = () => {
                             <button className={(visible + 3) >= projects.length ? "b2" : "b2off"} onClick={(visible + 3) > projects.length ? showLessItems : StayAtItems} >Load Less</button>
                         </div>
                     </div>
-            </div>
+                    </div>
                 
-            <div className='page-footer'>
-                <p>Made by Mohammad Hasib</p>
-            </div>
-            </div>
-
-        </div> 
+                    <div className='page-footer'>
+                        <p>Made by Mohammad Hasib</p>
+                    </div>
+                </div>
+            </div> 
         
         
 
