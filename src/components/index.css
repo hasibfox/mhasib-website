@@ -6,7 +6,7 @@
     transition: all .5s ease-in-out;
     
 }
-h1, h2,h3,h4,h5,p,span, button{
+h1, h2,h3,h4,h5,p,span, button, .labels{
     font-family: 'Space Grotesk', sans-serif;
 
 }
