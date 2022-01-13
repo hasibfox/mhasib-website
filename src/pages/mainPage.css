@@ -396,7 +396,7 @@
 
 .ii i{
     animation: goDown 10s infinite alternate-reverse;
-    opacity: .3;
+    opacity: .2;
 }
 .ii{
     z-index: 2;
