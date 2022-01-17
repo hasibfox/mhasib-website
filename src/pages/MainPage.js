@@ -16,7 +16,7 @@ import Carousel from '../components/Carousel';
 const MainPage = () => {
     AOS.init();
 
-    const [visible, setVisible] = useState(3);
+    const [visible, setVisible] = useState(6);
 
     const showMoreItems = () => {
         console.log(visible, "showmore")
@@ -41,7 +41,7 @@ const MainPage = () => {
                 <div className='direct-icons-container'>
                     {icons_color.map((icon, key) => {
                         return(
-                            <Falling
+                            <Falling key={key}
                             speed = { icon["speed"] }
                             delay =  {icon["delay"] }
                             reverse = { icon["reverse"] }
@@ -100,7 +100,7 @@ const MainPage = () => {
                         
                         >
                             <h1 className="animate__animated animate__pulse animate__infinite">
-                                hey it's mhasib
+                                hey it's hasib
                             </h1>
                             <h2>welcome to my <h2 className='animate__animated animate__shakeX  animate__infinite'>technosphere</h2> 
                             </h2>
@@ -134,9 +134,14 @@ const MainPage = () => {
                             <div className='me-text' data-aos="zoom-in-right">
                                 <img className='mobile-show' src={"https://media-exp1.licdn.com/dms/image/C4E03AQG8NPZOow8JEQ/profile-displayphoto-shrink_800_800/0/1596490348218?e=1647475200&v=beta&t=8-I3X59__pTs2ySHWB7BGjwuya1MRYOY-9_evmSi8xU"} />
                                 
-                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p> <br/>
+                                <p>I'm currently a sophomore at Wesleyan University, majoring in Computer Science with great interest in the intersection between <b>web develoment</b> and <b>cybersecurity</b>.
+                                </p> 
 
-                                <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>    
+                                <p>In effort to grow in these areas, I am studying for the <b>CompTIA Security+</b> Exam, learning <b>web penetration testing</b>, and working as a <b>WordPress Network Administrator</b>. I also provide <b>free</b> web scraping and website building services that you can check out <a target="_blank" href="hasibfox.wescreates.wesleyan.edu">here</a>.</p>
+
+                                <p> Additionally, I am working towards <b>memorizing the Quran</b> and becoming fluent in <b>Arabic</b>. I'm confident that I benefit my community through technology, but I hope to leverage my others interests to create an equally as impactful influence through language and religious understanding.</p>    
+                            
+                                <p>To grab a cup of tea and talk or have a conversation virtually, please do not hesitate to <b><a href = "mailto: mhasib@wesleyan.edu">reach out!</a></b></p>
                             </div>
                             <div className='me-extra' data-aos="zoom-in-left">
                                 <img className='mobile-hide' src={"https://media-exp1.licdn.com/dms/image/C4E03AQG8NPZOow8JEQ/profile-displayphoto-shrink_800_800/0/1596490348218?e=1647475200&v=beta&t=8-I3X59__pTs2ySHWB7BGjwuya1MRYOY-9_evmSi8xU"} />
@@ -185,48 +190,49 @@ const MainPage = () => {
                         </h2>
                         <div className="projects" >
                             <div className="project-box">
-                                
                                 {projects.slice(0,visible).map((project, index) => {
                                     return(
-                                        <div>
+                                        <div key={index}>
+                                        <div className="modal fade" id={`exampleModal${index}`} tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                            <div className="modal-dialog modal-dialog-centered" role="document" style={{
+                                                maxWidth: "80%"
+                                            }}>
+                                                <div className="modal-content">
+                                                    <div className="modal-header">
+                                                        <h2 className="animate__animated animate__fadeInDown modal-title">{project["pname"]}</h2>
+                                                            <span className="close" data-bs-dismiss="modal" aria-label="Close" aria-hidden="true">&times;</span>
+                                                    </div>
+                                                    <div className="modal-body">
+                                                        <div className = "animate__animated animate__zoomIn carousel-body-content">
+                                                            <Carousel images = {project["pimages"]} index= {index}/>
+                                                            <h5 className='animate__animated animate__animated'>{project["pdescription"]}</h5>
+                                                        </div>                         
+                                                    </div>
+                                                    <div className="modal-footer">
+                                                        <div className="carousel-labels-container">
+                                                            {project["ptags"].map((tag, key) => {
+                                                                return(
+                                                                    <div key={key} className={`animate__animated animate__fadeInLeft animate__delay-${key-.5}s labels`}>{tag}</div>
+                                                                )
+                                                            })}
 
-                <div className="modal fade" id={`exampleModal${index}`} tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                    <div className="modal-dialog modal-dialog-centered" role="document" style={{
-                        maxWidth: "80%"
-                    }}>
-                        <div className="modal-content">
-                            <div className="modal-header">
-                                <h2 className="animate__animated animate__fadeInDown modal-title">{project["pname"]}</h2>
-                                    <span className="close" data-bs-dismiss="modal" aria-label="Close" aria-hidden="true">&times;</span>
-                            </div>
-                            <div className="modal-body">
-                                <div className = "animate__animated animate__zoomIn carousel-body-content">
-                                    <Carousel images = {project["pimages"]} index= {index}/>
-                                    <h5 className='animate__animated animate__animated'>{project["pdescription"]}</h5>
-                                </div>                         
-                            </div>
-                            <div className="modal-footer">
-                                <div className="carousel-labels-container">
-                                    {project["ptags"].map((tag, key) => {
-                                        return(
-                                            <div key={key} className={`animate__animated animate__fadeInLeft animate__delay-${key-.5}s labels`}>{tag}</div>
-                                        )
-                                    })}
-
-                                </div>
-                                <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-            <ProjectCard
-                                        name = {project.pname} desc = {project.pdescription} tags = {project.ptags} links = {project.plinks} images = {project.pimages} options={project.options} index = {index}/>
-                                
+                                                        </div>
+                                                        <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        )
-                            })}
+                                        <ProjectCard
+                                        name = {project.pname} 
+                                        desc = {project.pdescription} 
+                                        tags = {project.ptags} 
+                                        links = {project.plinks} 
+                                        images = {project.pimages} 
+                                        options={project.options} 
+                                        index = {index}/>
+                                    </div>
+                                    )
+                                })}
                         </div>
                         <div className="events-buttons">
                             <button className={(visible) <= projects.length ? "b2" : "b2off"}  onClick={showMoreItems}>Load More</button>
@@ -235,14 +241,11 @@ const MainPage = () => {
                     </div>
                     </div>
                 
-                    <div className='animate__animated animate__slideInUp page-footer'>
+                    <div className='page-footer'>
                         <p>Made by Mohammad Hasib</p>
                     </div>
                 </div>
             </div> 
-        
-        
-
     )
 }
 
