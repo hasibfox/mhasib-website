@@ -137,7 +137,7 @@ const MainPage = () => {
                                 <p>I'm currently a sophomore at Wesleyan University, majoring in Computer Science with great interest in the intersection between <b>web develoment</b> and <b>cybersecurity</b>.
                                 </p> 
 
-                                <p>In effort to grow in these areas, I am studying for the <b>CompTIA Security+</b> Exam, learning <b>web penetration testing</b>, and working as a <b>WordPress Network Administrator</b>. I also provide <b>free</b> web scraping and website building services that you can check out <a target="_blank" href="hasibfox.wescreates.wesleyan.edu">here</a>.</p>
+                                <p>In effort to grow in these areas, I am studying for the <b>CompTIA Security+</b> Exam, learning <b>web penetration testing</b>, and working as a <b>WordPress Network Administrator</b>. I also provide <b>free</b> web scraping and website building services that you can check out <a target="_blank"  href="https://hasibfox.wescreates.wesleyan.edu/">here</a>.</p>
 
                                 <p> Additionally, I am working towards <b>memorizing the Quran</b> and becoming fluent in <b>Arabic</b>. I'm confident that I benefit my community through technology, but I hope to leverage my others interests to create an equally as impactful influence through language and religious understanding.</p>    
                             
@@ -145,11 +145,7 @@ const MainPage = () => {
                             </div>
                             <div className='me-extra' data-aos="zoom-in-left">
                                 <img className='mobile-hide' src={"https://media-exp1.licdn.com/dms/image/C4E03AQG8NPZOow8JEQ/profile-displayphoto-shrink_800_800/0/1596490348218?e=1647475200&v=beta&t=8-I3X59__pTs2ySHWB7BGjwuya1MRYOY-9_evmSi8xU"} />
-                                <h3>
-                                    <u>
-                                        Tech Stack
-                                    </u>
-                                </h3>
+                                <h3 data-aos="zoom-out-down"><u>Tech Stack</u></h3>
                                 <div className='tech-stack' data-aos="zoom-out-down">
                                     <div className="tech">
                                         <i className="fab fa-python"></i>
