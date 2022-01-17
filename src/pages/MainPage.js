@@ -146,7 +146,7 @@ const MainPage = () => {
                             <div className='me-extra' data-aos="zoom-in-left">
                                 <img className='mobile-hide' src={"https://media-exp1.licdn.com/dms/image/C4E03AQG8NPZOow8JEQ/profile-displayphoto-shrink_800_800/0/1596490348218?e=1647475200&v=beta&t=8-I3X59__pTs2ySHWB7BGjwuya1MRYOY-9_evmSi8xU"} />
                                 <h3 data-aos="zoom-out-down"><u>Tech Stack</u></h3>
-                                <div className='tech-stack' data-aos="zoom-out-down">
+                                <div className='tech-stack' data-aos="zoom-out-down" data-aos-delay="500">
                                     <div className="tech">
                                         <i className="fab fa-python"></i>
                                         <p>Python</p>
