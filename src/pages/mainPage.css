@@ -265,7 +265,7 @@ a:hover {
 }
 .project-card{
     background: #aad0ec50 !important;
-    margin: 20px;
+    margin: 15px !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -283,8 +283,8 @@ a:hover {
 .project-card h2{
     font-weight: 1000;
     font-size: 26px;
-    margin: 30px;
-    margin-bottom: 0px;
+    margin-top: 30px !important;
+    margin-bottom: -5px !important;
     color: white;
     text-decoration: rgb(114, 250, 159) 2px underline ;
 
@@ -351,16 +351,19 @@ a:hover {
     height: 100%;
     width: 40rem;
     position: relative;
-    background: cadetblueq;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .carousel-item{
-    height: 100%;
+    height: 40vh !important;
     background: cadetblue !important; 
 }
 
 .carousel-control-prev, .carousel-control-next{
     background: white;
-    height: 100%;
+    height: 40vh;
+    margin-top: 10vh;
 }
 
 .carousel-body-content{
