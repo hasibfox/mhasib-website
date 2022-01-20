@@ -137,9 +137,9 @@ const MainPage = () => {
                                 <p>I'm currently a sophomore at Wesleyan University, majoring in Computer Science with great interest in the intersection between <b>web develoment</b> and <b>cybersecurity</b>.
                                 </p> 
 
-                                <p>In effort to grow in these areas, I am studying for the <b>CompTIA Security+</b> Exam, learning <b>web penetration testing</b>, and working as a <b>WordPress Network Administrator</b>. I also provide <b>free</b> web scraping and website building services that you can check out <a target="_blank"  href="https://hasibfox.wescreates.wesleyan.edu/">here</a>.</p>
+                                <p>In effort to grow in these areas, I am studying for the CompTIA Security+ Exam, learning web penetration testing, and working as a WordPress Systems Developer. I also provide <b><a target="_blank"  href="https://hasibfox.wescreates.wesleyan.edu/">free web development assistance</a></b> for any businesses, organizations, and individuals who wish to take their presence into the digital sphere!</p>
 
-                                <p> Additionally, I am working towards <b>memorizing the Quran</b> and becoming fluent in <b>Arabic</b>. I'm confident that I benefit my community through technology, but I hope to leverage my others interests to create an equally as impactful influence through language and religious understanding.</p>    
+                                <p> Additionally, I am working towards <b>memorizing the Quran</b> and becoming fluent in <b>Arabic</b>. I'm confident that I can benefit my community through technology, but I hope to leverage my others interests to create an equally as meaningful interactions through language and religious understanding.</p>    
                             
                                 <p>To grab a cup of tea and talk or have a conversation virtually, please do not hesitate to <b><a href = "mailto: mhasib@wesleyan.edu">reach out!</a></b></p>
                             </div>
