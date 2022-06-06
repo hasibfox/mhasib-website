@@ -168,6 +168,10 @@ a:hover {
     margin: 30px;
 }
 
+.me-container img {
+    height: 230px;
+}
+
 .tech-stack{
     display: flex;
     justify-content: center;
