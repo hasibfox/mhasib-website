@@ -426,6 +426,7 @@ a:hover {
 .b2off, .b2{
     transition: ease-in-out .5s all;
 }
+
 .b2off:hover{
     cursor: not-allowed;
     background: rgb(180, 180, 180);

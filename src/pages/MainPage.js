@@ -12,7 +12,6 @@ import Carousel from '../components/Carousel';
 
 
 
-
 const MainPage = () => {
     AOS.init();
 
@@ -132,7 +131,7 @@ const MainPage = () => {
                             <div className='me-grid'>
 
                             <div className='me-text' data-aos="zoom-in-right">
-                                <img className='mobile-show' src={"https://media-exp1.licdn.com/dms/image/C4D03AQF1FSZ1lp3vtA/profile-displayphoto-shrink_800_800/0/1648405494443?e=1658966400&v=beta&t=nqGdc-5D60S31xbJRktzyrGrQlyC8gZhwrYMOo1SR1Y"} alt="mhasib-image" />
+                                <img className='mobile-show' src={"images/mhasibpic.jpg"} alt="mhasib-image" />
                                 
                                 <p>I'm currently a rising junior at Wesleyan University, majoring in Computer Science with great interest in the intersection between <b>web development</b>,  <b>cybersecurity</b>, and <b>cloud computing</b>.
                                 </p> 
@@ -144,7 +143,7 @@ const MainPage = () => {
                                 <p>To grab a cup of tea and talk or have a conversation virtually, please do not hesitate to <b><a href = "mailto: mhasib@wesleyan.edu">reach out!</a></b></p>
                             </div>
                             <div className='me-extra' data-aos="zoom-in-left">
-                                <img className='mobile-hide' src={"https://media-exp1.licdn.com/dms/image/C4D03AQF1FSZ1lp3vtA/profile-displayphoto-shrink_800_800/0/1648405494443?e=1658966400&v=beta&t=nqGdc-5D60S31xbJRktzyrGrQlyC8gZhwrYMOo1SR1Y"} alt="mobile-mhasib-image" />
+                                <img className='mobile-hide' src={"images/mhasibpic.jpg"} alt="mobile-mhasib-image" />
                                 <h3 data-aos="zoom-out-down"><u>Tech Stack</u></h3>
                                 <div className='tech-stack' data-aos="zoom-out-down" data-aos-delay="500">
                                     <div className="tech">
@@ -157,7 +156,7 @@ const MainPage = () => {
                                     </div>
                                     <div className="tech">
                                         <i className="fab fa-d-and-d"></i>
-                                        <p>Kali Linux</p>
+                                        <p>Linux</p>
                                     </div>
                                     <div className="tech">
                                         <i className="fas fa-file-code"></i>
